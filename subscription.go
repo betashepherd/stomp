@@ -5,7 +5,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/go-stomp/stomp/v3/frame"
+	"github.com/betashepherd/stomp/v3/frame"
 )
 
 const (

@@ -1,4 +1,4 @@
-module github.com/go-stomp/stomp/v3
+module github.com/betashepherd/stomp/v3
 
 go 1.15
 

@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-stomp/stomp/v3"
-	"github.com/go-stomp/stomp/v3/frame"
+	"github.com/betashepherd/stomp/v3"
+	"github.com/betashepherd/stomp/v3/frame"
 )
 
 const (

@@ -18,7 +18,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/go-stomp/stomp/v3/server"
+	"github.com/betashepherd/stomp/v3/server"
 )
 
 // TODO: experimenting with ways to gracefully shutdown the server,

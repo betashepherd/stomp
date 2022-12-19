@@ -5,11 +5,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-stomp/stomp/v3"
-	"github.com/go-stomp/stomp/v3/frame"
-	"github.com/go-stomp/stomp/v3/server/client"
-	"github.com/go-stomp/stomp/v3/server/queue"
-	"github.com/go-stomp/stomp/v3/server/topic"
+	"github.com/betashepherd/stomp/v3"
+	"github.com/betashepherd/stomp/v3/frame"
+	"github.com/betashepherd/stomp/v3/server/client"
+	"github.com/betashepherd/stomp/v3/server/queue"
+	"github.com/betashepherd/stomp/v3/server/topic"
 )
 
 type requestProcessor struct {

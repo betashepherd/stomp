@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/go-stomp/stomp/v3"
+	"github.com/betashepherd/stomp/v3"
 )
 
 const defaultPort = ":61613"

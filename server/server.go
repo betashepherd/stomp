@@ -7,8 +7,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/go-stomp/stomp/v3"
-	"github.com/go-stomp/stomp/v3/internal/log"
+	"github.com/betashepherd/stomp/v3"
+	"github.com/betashepherd/stomp/v3/internal/log"
 )
 
 // The STOMP server has the concept of queues and topics. A message
