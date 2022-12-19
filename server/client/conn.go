@@ -73,6 +73,10 @@ func (c *Conn) Send(f *frame.Frame) {
 	c.writeChannel <- f
 }
 
+func (c *Conn) IsClosed() bool {
+	return c.closed
+}
+
 // Send and ERROR message to the client. The client
 // connection will disconnect as soon as the ERROR
 // message has been transmitted. The message header
