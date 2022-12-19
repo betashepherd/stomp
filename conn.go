@@ -221,6 +221,10 @@ func (c *Conn) Session() string {
 	return c.session
 }
 
+func (c *Conn) IsClosed() bool {
+	return c.closed
+}
+
 // Server returns the STOMP server identification, which can
 // be returned by the STOMP server during the connect sequence.
 // If the STOMP server does not return a server header entry,
